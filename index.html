@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Reg form</title>
+
+</head>
+<body>
+<form method="POST" action="register.php" enctype="multipart/form-data">
+		<h3> Registration form</h3>
+		<label> frst name</label>
+		<input type="text" name="firstname">  <br><br>
+		<label> last name</label>
+		<input type="text" name="lastname">	<br><br>
+		<label> username</label>
+		<input type="text" name="username"><br><br>
+		<label> password</label>
+		<input type="text" name="password"><br><br>
+		<label> re-type password</label>
+		<input type="text" name="password2"><br><br>
+		<label>gender</label><br>
+		<input type="radio" name="gender" value="male"> male
+		<input type="radio" name="gender" value="female"> female
+		<input type="radio" name="gender" value="other"> other <br><br>
+
+		<label> location</label>
+		<select name="location">
+			<option value="ibadan"> ibadan</option>
+			<option value="lagos"> lagos</option>
+			<option value="anambra"> anambra</option>
+			<option value="sokoto"> sokoto</option>
+			<option value="abuja"> abuja</option>
+		</select><br><br>
+		<label>upload your pictre</label>
+		<input type="file" name="picture">
+		<input type="submit" name="submit">
+   </form>
+
+
+
+</body>
+</html>
